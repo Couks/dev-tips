@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# 💡 Dev Tips
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **Dev Tips** é um aplicativo mobile criado com React Native para auxiliar desenvolvedores com dicas diárias sobre programação. O app permite filtrar dicas por linguagem, visualizar desafios abertos e concluídos, além de acessar um perfil com o progresso do usuário.
 
-## Get started
+Este projeto foi desenvolvido como parte de um desafio acadêmico, atendendo aos requisitos mínimos de um aplicativo com pelo menos 4 telas funcionais.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Funcionalidades
 
-2. Start the app
+- 📆 **Dica do Dia**: Receba uma dica de programação nova a cada dia.
+- 🧪 **Filtrar por Linguagem**: Veja dicas específicas para linguagens como JavaScript, Python, Java, etc.
+- 🧩 **Desafios de Programação**: Veja desafios abertos, marque como concluído e acompanhe seu progresso.
+- 👤 **Perfil do Usuário**: Visualize informações básicas do perfil e estatísticas de desempenho.
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tecnologias utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) (para persistência local de dados)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧭 Estrutura de Telas
 
-When you're ready, run:
+1. **Home** – exibe a dica do dia.
+2. **Filtros** – permite escolher a linguagem de programação.
+3. **Desafios** – mostra os desafios abertos e concluídos.
+4. **Perfil** – exibe o progresso e informações do usuário.
 
+---
+
+## 🚀 Como rodar o projeto
+
+1. Clone este repositório:
 ```bash
-npm run reset-project
+git clone https://github.com/seu-usuario/dev-tips.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Acesse a pasta do projeto:
+```bash
+cd dev-tips
+```
 
-## Learn more
+3. Instale as dependências:
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Rode o projeto com Expo:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🧠 Ideias futuras
 
-Join our community of developers creating universal apps.
+- Sistema de login e autenticação.
+- Conquistas e badges baseadas em desafios.
+- Integração com uma API para dicas e desafios.
+- Compartilhamento de dicas entre usuários.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📸 Imagens (opcional)
+
+Adicione aqui prints das telas do app:
+```
+![Tela Inicial](./assets/tela-inicial.png)
+![Desafios](./assets/tela-desafios.png)
+```
+
+---
+
+## 🧑‍💻 Autor
+
+Projeto desenvolvido por **Matheus Castro** como parte do curso de Análise e Desenvolvimento de Sistemas.
+
+[LinkedIn](https://www.linkedin.com/in/seu-linkedin) • [GitHub](https://github.com/seu-usuario)
+
+---
+
+## 📃 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.

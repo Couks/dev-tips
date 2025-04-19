@@ -1,6 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import { Home, FolderOpen, Target, User } from "lucide-react-native"
-import { useSafeAreaInsets } from "react-native-safe-area-context"
 import HomeScreen from "./screens/HomeScreen"
 import CategoriesScreen from "./screens/CategoriesScreen"
 import ChallengesScreen from "./screens/ChallengesScreen"
@@ -9,25 +8,23 @@ import ProfileScreen from "./screens/ProfileScreen"
 const Tab = createBottomTabNavigator()
 
 export default function TabLayout() {
-  const insets = useSafeAreaInsets()
   
   return (
     <Tab.Navigator
       screenOptions={{
         tabBarActiveTintColor: "#6366f1",
-        tabBarInactiveTintColor: "#fff",
+        tabBarInactiveTintColor: "#6366f8",
         tabBarShowLabel: false,
         tabBarStyle: {
-          position: 'fixed',
-          backgroundColor: '#333',
           borderTopWidth: 0,
-          elevation: 16,
-          height: 60,
-          bottom: 10,
-          left: 0,
-          right: 0,
-          marginHorizontal: 20,
-          borderRadius: 100,
+          paddingTop: 8,
+          paddingBottom: 8,
+          backgroundColor: "white",
+          shadowColor: "#000",
+          shadowOpacity: 0.1,
+          shadowRadius: 4,
+          elevation: 2,
+  
         },
       }}
     >
