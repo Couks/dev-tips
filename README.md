@@ -68,13 +68,10 @@ npx expo start
 
 ## 📸 Imagens
 
-```
 ![Tela Inicial](./assets/screenshots/home.png)
 ![Categprias](./assets/screenshots/categorias.png)
 ![Desafios](./assets/screenshots/desafios.png)
 ![Perfil](./assets/screenshots/perfil.png)
-
-```
 
 ---
 
