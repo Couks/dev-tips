@@ -37,7 +37,7 @@ export default function TabLayout() {
       }}
     >
       <Tab.Screen
-        name="Home"
+        name="Início"
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color, focused }) => (
@@ -48,7 +48,7 @@ export default function TabLayout() {
         }}
       />
       <Tab.Screen
-        name="Categories"
+        name="Categorias"
         component={CategoriesScreen}
         options={{
           tabBarIcon: ({ color, focused }) => (
@@ -59,7 +59,7 @@ export default function TabLayout() {
         }}
       />
       <Tab.Screen
-        name="Challenges"
+        name="Desafios"
         component={ChallengesScreen}
         options={{
           tabBarIcon: ({ color, focused }) => (
@@ -70,7 +70,7 @@ export default function TabLayout() {
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Perfil"
         component={ProfileScreen}
         options={{
           tabBarIcon: ({ color, focused }) => (
