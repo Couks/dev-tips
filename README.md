@@ -27,7 +27,7 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico, atendendo aos
 ## 🧭 Estrutura de Telas
 
 1. **Home** – exibe a dica do dia.
-2. **Filtros** – permite escolher a linguagem de programação.
+2. **Categorias** – permite escolher a linguagem de programação.
 3. **Desafios** – mostra os desafios abertos e concluídos.
 4. **Perfil** – exibe o progresso e informações do usuário.
 
@@ -66,12 +66,14 @@ npx expo start
 
 ---
 
-## 📸 Imagens (opcional)
+## 📸 Imagens
 
-Adicione aqui prints das telas do app:
 ```
-![Tela Inicial](./assets/tela-inicial.png)
-![Desafios](./assets/tela-desafios.png)
+![Tela Inicial](./assets/screenshots/home.png)
+![Categprias](./assets/screenshots/categorias.png)
+![Desafios](./assets/screenshots/desafios.png)
+![Perfil](./assets/screenshots/perfil.png)
+
 ```
 
 ---
@@ -80,7 +82,7 @@ Adicione aqui prints das telas do app:
 
 Projeto desenvolvido por **Matheus Castro** como parte do curso de Análise e Desenvolvimento de Sistemas.
 
-[LinkedIn](https://www.linkedin.com/in/seu-linkedin) • [GitHub](https://github.com/seu-usuario)
+[LinkedIn](https://www.linkedin.com/in/matheus-castro-araujo/) • [GitHub](https://github.com/Couks)
 
 ---
 
