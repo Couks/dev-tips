@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico, atendendo aos
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/dev-tips.git
+git clone https://github.com/Couks/dev-tips.git
 ```
 
 2. Acesse a pasta do projeto:
